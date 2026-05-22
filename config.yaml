@@ -1,0 +1,24 @@
+# SysPurge Configuration
+modules:
+  cache: true
+  swap: true
+  temp: true
+  trash: true
+  logs: false
+  orphan_packages: true
+  browser_cache: false
+
+windows:
+  temp_dirs:
+    - C:\Windows\Temp
+    - %TEMP%
+  recycle_bin: true
+
+linux:
+  temp_dirs:
+    - /tmp
+    - /var/tmp
+  swap_path: /swapfile
+  cache_dirs:
+    - /var/cache/apt/archives
+    - ~/.cache
