@@ -27,3 +27,24 @@
 git clone https://github.com/Falconmx1/SysPurge.git
 cd SysPurge
 chmod +x syspurge.py  # Linux/Mac
+
+
+🚀 Comandos Ultimate
+
+# Interfaz gráfica completa (recomendado)
+python syspurge.py --gui
+
+# Dashboard web con estadísticas
+python syspurge.py --dashboard 8080
+
+# Buscar y eliminar duplicados
+python syspurge.py --duplicates
+
+# Limpieza completa con todos los módulos
+python syspurge.py --full
+
+# Configurar automático
+python syspurge.py --setup-auto semanal
+
+# Modo simulación (ver qué se eliminaría)
+python syspurge.py --dry-run
