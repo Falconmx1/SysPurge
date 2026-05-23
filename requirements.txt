@@ -1,0 +1,7 @@
+# Para notificaciones desktop (opcional)
+plyer>=2.0
+
+# Para Windows Task Scheduler (opcional)
+pywin32>=305
+
+# Todos los demás módulos son de la biblioteca estándar de Python
